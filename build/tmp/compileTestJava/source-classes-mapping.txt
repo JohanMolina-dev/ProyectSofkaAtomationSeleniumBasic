@@ -1,4 +1,6 @@
-base/BaseTest.java
- base.BaseTest
 base/RegisterTests.java
  base.RegisterTests
+base/LoginTest.java
+ base.LoginTest
+base/BaseTest.java
+ base.BaseTest

@@ -1,8 +1,10 @@
-MyStorePages/Login.java
- MyStorePages.Login
-MyStorePages/HomePage.java
- MyStorePages.HomePage
 MyStorePages/FormNewUser.java
  MyStorePages.FormNewUser
 MyStorePages/Register.java
  MyStorePages.Register
+MyStorePages/HomePage.java
+ MyStorePages.HomePage
+MyStorePages/MyPersonalInfo.java
+ MyStorePages.MyPersonalInfo
+MyStorePages/Login.java
+ MyStorePages.Login
