@@ -25,10 +25,17 @@ public class MyPersonalInfo {
     public void changeMyLastName(String newLastName){
         driver.findElement(lastNameInfo).sendKeys(newLastName.toLowerCase());
     }
+    public String getMyName(){
+        return  driver.findElement(nameInfo).getAttribute("value");
+    }
+    public String getMyLastName(){
+        return  driver.findElement(lastNameInfo).getAttribute("value");
+    }
     public void clickSave(){
         driver.findElement(saveMyChange).click();
     }
     public String getMyAlert(){
         return driver.findElement(alertText).getText();
     }
+
 }

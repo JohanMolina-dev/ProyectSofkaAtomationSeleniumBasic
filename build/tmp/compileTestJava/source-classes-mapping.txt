@@ -1,6 +1,10 @@
-base/RegisterTests.java
- base.RegisterTests
-base/LoginTest.java
- base.LoginTest
+login/LoginTest.java
+ login.LoginTest
 base/BaseTest.java
  base.BaseTest
+cart/AddToCartTest.java
+ cart.AddToCartTest
+search/SearchTest.java
+ search.SearchTest
+registerAndForm/RegisterTest.java
+ registerAndForm.RegisterTest

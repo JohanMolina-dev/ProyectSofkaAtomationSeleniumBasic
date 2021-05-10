@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Register {
     private WebDriver driver;
-    private By emailRegister = By.id("email_create");
+    private By emailRegister = By.name("email_create");
     private By buttonCreateAnAccount = By.id("SubmitCreate");
 
     public Register(WebDriver driver) {
@@ -14,9 +14,9 @@ public class Register {
     public void inputNewEmail(String newEmail){
         driver.findElement(emailRegister).sendKeys(newEmail);
     }
-    public FormNewUser clickButtonAccount(){
+    public NewUserForm clickButtonAccount(){
         driver.findElement(buttonCreateAnAccount).click();
-        return new FormNewUser(driver);
+        return new NewUserForm(driver);
     }
 
 

@@ -34,6 +34,10 @@ public class Login {
     public String getTextAlert(){
         return driver.findElement(contentAlert).getText();
     }
+    public AddToCart clickButtonSignInToAddCart(){
+        driver.findElement(buttonSignIn).click();
+        return new AddToCart(driver);
+    }
 
 
 }
